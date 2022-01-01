@@ -1,0 +1,17 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shrouded Shrew <shroudedshrew@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "fullstackD3Masterclass/*"
+  ],
+  "scripts": {
+    "clean-all": "lerna clean && rm -rf node_modules"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
